@@ -1,0 +1,33 @@
+{
+  "name": "vite-react-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "try": "tsx ./a.ts",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@easydarwin/easyplayer": "5.0.3",
+    "@easydarwin/easywasmplayer": "^4.0.13",
+    "@xt-ui/core": "^0.3.6",
+    "easy-player": "^2.2.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "tsx": "^3.8.2",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0",
+    "vite-plugin-optimize-persist": "^0.1.2",
+    "vite-plugin-package-config": "^0.1.1",
+    "xt-earth": "^0.3.27"
+  }
+}
